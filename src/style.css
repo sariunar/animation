@@ -12,8 +12,8 @@ body {
   margin-top: 150px;
 }
 .square {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,12 +26,17 @@ body {
   background: rgb(8, 50, 63);
 }
 .btn{
-  width: 120px;
-  height: 40px;
+  width: 15vw;
+  height: 50px;
   border: none;
   background-color: rgb(51, 58, 61);
   color: aliceblue;
   font-size: 1.2em;
   z-index: 100;
   cursor: pointer;
+}
+@media screen and (max-width: 700){
+  .btn{
+    width: 20vw;
+  }
 }
