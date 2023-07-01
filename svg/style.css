@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+#animPath {
+  stroke-dasharray: 2880px;
+  stroke-dashoffset: 0;
+  animation: anim-line 3s linear forwards;
+}
+@keyframes anim-line {
+  to {
+    stroke-dashoffset: -2880px;
+  }
+}
